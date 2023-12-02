@@ -1,0 +1,41 @@
+{
+  "name": "al-number-outline",
+  "displayName": "AL Number Outline",
+  "description": "Add a tree view to the explorer that shows the object number in each AL file",
+  "version": "0.0.1",
+  "publisher": "TaoTingTuShuo",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./src/extension.js",
+  "contributes": {
+    "views": {
+      "explorer": [
+        {
+          "id": "treeView",
+          "name": "AL Number Outline"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.76.0",
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "eslint": "^8.36.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^4.9.5",
+    "@vscode/test-electron": "^2.3.0"
+  }
+}
