@@ -1,8 +1,9 @@
 {
-  "name": "al-number-outline",
-  "displayName": "AL Number Outline",
-  "description": "Add a tree view to the explorer that shows the object number in each AL file",
+  "name": "al-object-id-outline",
+  "displayName": "AL Object ID Outline",
+  "description": "Add a tree view to the explorer that shows the object ID in each AL file",
   "version": "0.0.1",
+  "icon": "images/logo.png",
   "publisher": "TaoTingTuShuo",
   "engines": {
     "vscode": "^1.76.0"
@@ -17,7 +18,7 @@
       "explorer": [
         {
           "id": "treeView",
-          "name": "AL Number Outline"
+          "name": "AL Object ID Outline"
         }
       ]
     }

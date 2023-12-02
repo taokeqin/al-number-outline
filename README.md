@@ -1,10 +1,21 @@
-# AL Number Outline
+# AL Object ID Outline
 
-This is a simple extension named "AL Number Outline". It will just show the object numbers in the outline view.
+The "AL Object ID Outline" extension provides a streamlined overview of object IDs used in Business Central AL files within Visual Studio Code.
 
 ## Features
 
-In the Explorer of VS Code, you can see the object numbers in the newly added view named AL NUMBER OUTLINE.
-It will extract and aggregate all object numbers belongs to the same type to the same label, that means the list of number is not necessary mapping to the file system structure.
+The extension introduces a new view, "AL NUMBER OUTLINE," in the Explorer of VS Code. In this view, you'll find a categorized list of object IDs extracted from AL files within your workspace.
 
-**Enjoy!**
+### Object ID Grouping
+
+Object IDs are aggregated based on their types, allowing for a clear and organized presentation. The grouping ensures that object IDs belonging to the same type are presented under a unified label, providing a comprehensive overview of the usage of object IDs across your project.
+
+Please note that the list of numbers does not necessarily mirror the file system structure, making it easy to identify and navigate through different object types.
+
+## How to Use
+
+1. Open the Explorer view in VS Code.
+2. Look for the newly added "AL NUMBER OUTLINE" view.
+3. Explore the categorized list of object IDs to understand their distribution and usage across your AL files.
+
+Enjoy a more organized and efficient workflow with the "AL Object ID Outline" extension!
