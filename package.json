@@ -2,7 +2,7 @@
   "name": "al-object-id-outline",
   "displayName": "AL Object ID Outline",
   "description": "Add a tree view to the explorer that shows the object ID in each AL file",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "images/logo.png",
   "publisher": "TaoTingTuShuo",
   "repository": {
