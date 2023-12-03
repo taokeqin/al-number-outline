@@ -5,6 +5,10 @@
   "version": "0.0.1",
   "icon": "images/logo.png",
   "publisher": "TaoTingTuShuo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taokeqin/al-object-id-outline"
+  },
   "engines": {
     "vscode": "^1.76.0"
   },
