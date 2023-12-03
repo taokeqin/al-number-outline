@@ -25,7 +25,7 @@ const treeDataProvider = new TreeDataProvider([]);
 async function activate() {
   initTreeView();
   vscode.workspace.onDidSaveTextDocument(async (document) => {
-    if (document.fileName.includes('src') && document.languageId === 'al') {
+    if (document.languageId === 'al') {
       await treeDataProvider.refresh();
     }
   });
