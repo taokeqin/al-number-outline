@@ -19,3 +19,7 @@ Please note that the list of numbers does not necessarily mirror the file system
 3. Explore the categorized list of object IDs to understand their distribution and usage across your AL files.
 
 Enjoy a more organized and efficient workflow with the "AL Object ID Outline" extension!
+
+![Outline A](images/al-object-id-outline-treeview-1.png "Outline A")
+
+![Outline B](images/al-object-id-outline-treeview-2.png "Outline B")

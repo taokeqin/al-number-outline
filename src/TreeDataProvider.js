@@ -53,7 +53,7 @@ class TreeDataProvider {
             return;
         }
 
-        const files = await vscode.workspace.findFiles(new vscode.RelativePattern(rootPath, 'src/**/*.{al}'));
+        const files = await vscode.workspace.findFiles(new vscode.RelativePattern(rootPath, '**/*.{al}'));
         const treeData = this.parseFiles(files);
         return treeData;
     }
