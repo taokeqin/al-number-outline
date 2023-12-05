@@ -79,7 +79,7 @@ class TreeDataProvider {
             }
             treeData.push({
                 label: documentType,
-                keywordsWithFile: matchedObjects[documentType].sort((a, b) => a.keyword.localeCompare(b.keyword))
+                keywordsWithFile: matchedObjects[documentType].sort((a, b) => a.keyword.localeCompare(b.keyword)).reverse()
             });
         }
 

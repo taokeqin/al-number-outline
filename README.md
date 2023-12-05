@@ -4,7 +4,7 @@ The "AL Object ID Outline" extension provides a streamlined overview of object I
 
 ## Features
 
-The extension introduces a new view, "AL NUMBER OUTLINE," in the Explorer of VS Code. In this view, you'll find a categorized list of object IDs extracted from AL files within your workspace.
+The extension introduces a new view, "AL OBJECT ID OUTLINE," in the Explorer of VS Code. In this view, you'll find a categorized list of object IDs extracted from AL files within your workspace.
 
 ### Object ID Grouping
 
